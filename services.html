@@ -59,6 +59,16 @@
                         <li>
                             <h3>Requests</h3>
                         </li>
+                        
+                        <form method="POST" action="https://setupbtcpay.bitcoinlightningsetup.com/apps/2nCu1URF5dBsEjTMMkAGpNpJQT2r/pos">
+                            <input type="hidden" name="amount" value="100" />
+                            <input type="hidden" name="email" value="customer@example.com" />
+                            <input type="hidden" name="orderId" value="CustomOrderId" />
+                            <input type="hidden" name="notificationUrl" value="https://example.com/callbacks" />
+                            <input type="hidden" name="redirectUrl" value="https://example.com/thanksyou" />
+                            <button type="submit">Buy now</button>
+                        </form>
+                        
                     </ul>
                     
                 </article>
